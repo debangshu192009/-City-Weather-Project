@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(165, 163, 163);
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 40px;
+    color: rgb(44, 44, 44);
+    margin-bottom: 20px;
+}
+
+.search {
+    position: relative;
+    width: 350px;
+    text-align: center;
+}
+
+.search #Search {
+    width: 350px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.search #Search::placeholder {
+    font-size: 20px;
+}
+
+.search #img1 {
+    position: absolute;
+    left: -50px;
+    top: 3px;
+    width: 40px;
+    height: 40px;
+}
+
+.search #img2 {
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.search #img3 {
+    position: absolute;
+    right: 45px;
+    top: 12px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.weatherbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cityName {
+    font-size: 50px;
+    padding: 10px;
+}
+
+#sun{
+    height: 50px;
+    width: 50px;
+
+}
+
+#temp {
+    font-size: 40px;
+}
+
+.information {
+    display: flex;
+    position: relative;
+    width: 260px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#sky {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+#maxTemp {
+    position: absolute;
+    right: 15px;
+    font-size: 17px;
+}
+
+#minTemp {
+    position: absolute;
+    right: -20px;
+    font-size: 17px;
+}
+
+.weatherdata {
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    background-color: rgb(80, 79, 79);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: rgb(240, 238, 238);
+
+}
+
+.Heading {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+#latitude, #longitude, #wind, #feelsLike{
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
